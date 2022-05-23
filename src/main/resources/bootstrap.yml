@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: test # project name
+  cloud:
+    nacos:
+      config:
+        server-addr: 150.158.165.26:8848 # configuration center address
+        file-extension: yml # config file suffix
+        username: nacos
+        password: 985D$z#Y
+logging:
+  file:
+    name: ./log/a.log
