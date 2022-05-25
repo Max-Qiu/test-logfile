@@ -17,6 +17,14 @@ a complete yet minimal sample for [The logfile in the configuration center does 
 
 
 
+PS:If `nacos` cannot connect or the password is incorrect,Use the following command to quickly start a `nacos` with Docker,The default username and password are both `nacos`
+
+
+
+```
+docker run -d --restart always --name nacos -p 8848:8848 -p 9848:9848 -e MODE=standalone nacos/nacos-server:v2.1.0
+```
+
 
 
 
